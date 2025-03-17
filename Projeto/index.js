@@ -19,6 +19,7 @@ console.log(a > b || typeof b == 'string'); //A é maior que B(false) e b é uma
 /*
     Estruturas condicionais
     if(condição){}else if(condição){} else{}
+    isApproved = media >= 7 ? true : false 
     switch(variavel teste){case "possivel valor da variavel": break;}
 */
 
@@ -49,7 +50,7 @@ switch (semaforoComSwitch){
         console.log('Siga');
     break;
     
-    case "Amarelo": //comparação maiscula, então não é igual(Case Sensitive).
+    case "Amarelo": //comparação maiuscula, então não é igual(Case Sensitive).
         console.log('Atenção');
     break;
     
